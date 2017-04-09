@@ -1,5 +1,9 @@
 <?php
 
+    /*
+        Send sms to your clients.
+    */
+
     function sms_send($params, $token = false, $backup = false ) {
 
         static $content;
