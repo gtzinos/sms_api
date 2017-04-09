@@ -10,7 +10,7 @@
 
         Or
 
-        Set username & password (Also uncomment them)
+        Set username & password (Also comment out them and comment $token = "")
     */
 
     $token = "";
