@@ -5,6 +5,8 @@
             $file_name: File path (Absolute/ Relative)
         
         Return:
+            True: Correct data. 
+            False: Wrong Data. 
                     
     */
     function getContactsFromCSV($file_name, &$params)
