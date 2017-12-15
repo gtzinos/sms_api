@@ -32,7 +32,7 @@
 
     if(getContactsFromCSV($file_name, $params))
     {
-        if($toke !== FALSE)
+        if($token !== FALSE)
         {
             sms_send($params, $token);
         }
